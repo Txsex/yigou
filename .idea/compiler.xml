@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yigou-basic-util" />
+        <module name="yigou-config-server" />
+        <module name="yigou-eureka-server" />
+        <module name="yigou-plat-interface" />
+        <module name="yigou-plat-service" />
+        <module name="yigou-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="yigou-basic-parent" target="1.5" />
+      <module name="yigou-basic-util" target="1.5" />
+      <module name="yigou-config-server" target="1.5" />
+      <module name="yigou-eureka" target="1.5" />
+      <module name="yigou-eureka-server" target="1.5" />
+      <module name="yigou-parent" target="1.5" />
+      <module name="yigou-plat-interface" target="1.5" />
+      <module name="yigou-plat-parent" target="1.5" />
+      <module name="yigou-plat-service" target="1.5" />
+      <module name="yigou-zuul" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

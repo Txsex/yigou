@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yigou-basic-parent/yigou-basic-parent.iml" filepath="$PROJECT_DIR$/yigou-basic-parent/yigou-basic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-basic-parent/yigou-basic-util/yigou-basic-util.iml" filepath="$PROJECT_DIR$/yigou-basic-parent/yigou-basic-util/yigou-basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-config-server/yigou-config-server.iml" filepath="$PROJECT_DIR$/yigou-config-server/yigou-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-eureka.iml" filepath="$PROJECT_DIR$/yigou-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-eureka-server/yigou-eureka-server.iml" filepath="$PROJECT_DIR$/yigou-eureka-server/yigou-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-parent.iml" filepath="$PROJECT_DIR$/yigou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-plat-parent/yigou-plat-interface/yigou-plat-interface.iml" filepath="$PROJECT_DIR$/yigou-plat-parent/yigou-plat-interface/yigou-plat-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-plat-parent/yigou-plat-parent.iml" filepath="$PROJECT_DIR$/yigou-plat-parent/yigou-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-plat-parent/yigou-plat-service/yigou-plat-service.iml" filepath="$PROJECT_DIR$/yigou-plat-parent/yigou-plat-service/yigou-plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yigou-zuul/yigou-zuul.iml" filepath="$PROJECT_DIR$/yigou-zuul/yigou-zuul.iml" />
+    </modules>
+  </component>
+</project>

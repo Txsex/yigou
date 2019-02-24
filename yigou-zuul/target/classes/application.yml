@@ -1,0 +1,18 @@
+server:
+  port: 1995
+spring:
+  application:
+    name: yigou-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-1995.com
+    prefer-ip-address: true
+zuul:
+  routes:
+    aigouEmployee.serviceId: employee-provider
+    aigouEmployee.path: /employee/**  # 匹配 /xxx开头的请求映射到user-provider服务上
+  ignored-services: "*" #user-provider #忽略直接使用服务名访问  *忽略所有的
+  prefix: /aigou   # 访问前缀
