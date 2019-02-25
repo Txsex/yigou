@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.eureka-7001.com:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: yigou-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Txsex/config.git
+          username: Txsex
+          password: 122333why
