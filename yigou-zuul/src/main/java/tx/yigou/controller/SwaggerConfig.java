@@ -23,7 +23,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("分布式购物系统")
                 .description("购物系统接口文档说明")
-                .termsOfServiceUrl("http://localhost:1995")
+                .termsOfServiceUrl("http://localhost:8001")
                 .contact(new Contact("txtest", "", "1083628357@qq.com"))
                 .version("1.0")
                 .build();
