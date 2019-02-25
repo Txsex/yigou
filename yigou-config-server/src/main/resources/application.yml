@@ -13,6 +13,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Txsex/config.git
+          uri: https://github.com/Txsex/tx.git
           username: Txsex
           password: 122333why
